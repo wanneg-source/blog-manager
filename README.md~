@@ -1,0 +1,28 @@
+# Blog Manager
+
+## Description du projet
+
+**Blog Manager** est une application web frontend moderne conçue pour créer, gérer et consulter des articles de blog personnels. Développée avec React, TypeScript et Vite dans le cadre de ma formation à l'ETNA (projet Code2Work), cette application fonctionne entièrement côté client, sans serveur ni base de données externe.
+
+### Fonctionnalités principales
+
+- **Gestion complète des articles (CRUD)** : Création, lecture, modification (via une fenêtre modale) et suppression d'articles (avec demande de confirmation).
+- **Navigation multi-pages** : Gestion des routes assurée par React Router (`/`, `/articles`, `/articles/:id`, `/new`).
+- **Recherche et filtrage** : Filtrage dynamique des articles par titre, par catégorie ou par date de création (du plus récent au plus ancien, et inversement).
+- **Persistance des données** : Sauvegarde et chargement automatiques des articles dans le `localStorage` du navigateur.
+- **Validation des formulaires** : Vérification stricte des champs obligatoires avec affichage clair des messages d'erreur.
+
+## Technologies utilisées
+
+- **React** (Composants fonctionnels et Hooks)
+- **TypeScript** (Typage statique et interfaces)
+- **React Router** (Routage côté client)
+- **Vite** (Outil de build et serveur de développement)
+- **API LocalStorage** (Persistance locale des données)
+- **ESLint & Prettier** (Qualité et formatage du code)
+
+## Installation
+
+1. Cloner le dépôt :
+   ```bash
+   git clone [https://github.com/wanneg-source/blog-manager.git](https://github.com/wanneg-source/blog-manager.git)
